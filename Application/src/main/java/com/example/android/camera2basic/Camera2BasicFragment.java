@@ -190,6 +190,7 @@ public class Camera2BasicFragment extends Fragment
 
     /**
      * {@link CameraDevice.StateCallback} is called when {@link CameraDevice} changes its state.
+     * TestGit
      */
     private final CameraDevice.StateCallback mStateCallback = new CameraDevice.StateCallback() {
 
@@ -197,7 +198,7 @@ public class Camera2BasicFragment extends Fragment
         public void onOpened(@NonNull CameraDevice cameraDevice) {
             // This method is called when the camera is opened.  We start camera preview here.
             mCameraOpenCloseLock.release();
-            // 拿到摄像头对象
+            // 拿到摄像头对象，testGit
             mCameraDevice = cameraDevice;
             // 创建用于预览的CamareCaptureSession
             createCameraPreviewSession();
