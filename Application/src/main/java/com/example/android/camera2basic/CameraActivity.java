@@ -19,6 +19,13 @@ package com.example.android.camera2basic;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+/**
+  * @ClassName:      
+  * @Description:    desc
+  * @Author:         TimXiao
+  * @CreateDate:     2020/2/1 22:23
+ */
+
 public class CameraActivity extends AppCompatActivity {
 
     @Override
